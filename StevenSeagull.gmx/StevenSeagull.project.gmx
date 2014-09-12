@@ -12,13 +12,15 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objectTest</object>
+    <object>objects\player1</object>
+    <object>objects\player2</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\SplashScreen</room>
     <room>rooms\MainLoop</room>
+    <room>rooms\SplashScreen</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41894.9167712269</constant>
+    <constant name="GM_build_date">41894.9782563079</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
