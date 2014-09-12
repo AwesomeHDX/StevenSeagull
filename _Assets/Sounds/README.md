@@ -1,1 +1,1 @@
-This directory contains afhopefasef
+This directory contains sound files for the game
