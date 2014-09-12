@@ -5,9 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite0</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\objectTest</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\SplashScreen</room>
+    <room>rooms\MainLoop</room>
+  </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">41894.9167712269</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
