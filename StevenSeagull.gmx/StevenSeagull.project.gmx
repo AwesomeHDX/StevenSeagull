@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_sg_dive1</sound>
+    <sound>sound\snd_sg_dive2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>

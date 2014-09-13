@@ -25,14 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar flyingSpeed;
-flyingSpeed = 6;
+            <string>    globalvar flyingSpeed;
+    flyingSpeed = 6;
 
-globalvar gravityPull;
-gravityPull = 0.5;
+    globalvar gravityPull;
+    gravityPull = 0.5;
 
-globalvar initialDiveMomentum;
-initialDiveMomentum = 6;
+    globalvar initialDiveMomentum;
+    initialDiveMomentum = 6;
 </string>
           </argument>
         </arguments>
@@ -165,7 +165,7 @@ mirrorHorizontal(player1);
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_sg_dive1</sound>
+            <sound>snd_sg_dive2</sound>
           </argument>
           <argument>
             <kind>3</kind>
