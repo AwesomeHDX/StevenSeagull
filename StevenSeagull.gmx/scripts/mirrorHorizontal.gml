@@ -1,4 +1,4 @@
-if (hspeed < 0)
+if (argument0.hspeed < 0)
 {
     argument0.image_xscale = -1;
 } else

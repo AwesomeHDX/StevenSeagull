@@ -21,6 +21,9 @@
     <script>scripts\mirrorHorizontal.gml</script>
     <script>scripts\switchPlaces.gml</script>
     <script>scripts\seagullAttack.gml</script>
+    <script>scripts\stevenEat.gml</script>
+    <script>scripts\seagullTurn.gml</script>
+    <script>scripts\stevenTurn.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>
