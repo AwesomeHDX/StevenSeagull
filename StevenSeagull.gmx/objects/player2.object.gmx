@@ -35,7 +35,7 @@ walkingSpeed = -6;
 walkingSoundSpeed = 15;
 beforeStopSpeed = walkingSpeed;
 scoreSpeed = 60;
-winningScore = 1000;
+winningScore = 160;
 
 myScore = 0;
 
@@ -76,10 +76,18 @@ image_speed = 0.2;
           <argument>
             <kind>1</kind>
             <string>if (rolesAreSwitched = 0) {
-    player2.myScore += 100;
+    player2.myScore += 10;
+    if (player2.myScore &gt;= winningScore) {
+        winner = player2;
+        room_goto(EndScreen);
+    }
 }
 else {
-    player1.myScore += 100;
+    player1.myScore += 10;
+    if (player1.myScore &gt;= winningScore) {
+        winner = player1;
+        room_goto(EndScreen);
+    }
 }
 
 player2.alarm[1] = scoreSpeed;
