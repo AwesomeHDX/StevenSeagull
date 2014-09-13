@@ -5,15 +5,33 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_m1_seagullcry</sound>
+    <sound>sound\snd_m1_seawaves</sound>
+    <sound>sound\snd_m2_counting</sound>
+    <sound>sound\snd_m2_country_loop</sound>
+    <sound>sound\snd_m3_cheering_loop</sound>
+    <sound>sound\snd_m3_cheering_start</sound>
+    <sound>sound\snd_sg_collision</sound>
     <sound>sound\snd_sg_dive1</sound>
     <sound>sound\snd_sg_dive2</sound>
+    <sound>sound\snd_sg_flap1</sound>
+    <sound>sound\snd_sg_recovery1</sound>
+    <sound>sound\snd_sg_recovery2</sound>
+    <sound>sound\snd_sg_recovery3</sound>
+    <sound>sound\snd_sg_recovery4</sound>
+    <sound>sound\snd_sg_transform</sound>
+    <sound>sound\snd_sg_turn</sound>
+    <sound>sound\snd_sv_eating1</sound>
+    <sound>sound\snd_sv_eating2</sound>
+    <sound>sound\snd_sv_eating3</sound>
+    <sound>sound\snd_sv_eating4</sound>
+    <sound>sound\snd_sv_eating5</sound>
     <sound>sound\snd_sv_walk1</sound>
     <sound>sound\snd_sv_walk2</sound>
     <sound>sound\snd_sv_walk3</sound>
     <sound>sound\snd_sv_walk4</sound>
     <sound>sound\snd_sv_walk5</sound>
     <sound>sound\snd_sv_walk6</sound>
-    <sound>sound\snd_sg_flap1</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
