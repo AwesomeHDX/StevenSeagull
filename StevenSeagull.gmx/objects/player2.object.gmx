@@ -35,7 +35,7 @@ walkingSpeed = -6;
 walkingSoundSpeed = 15;
 beforeStopSpeed = walkingSpeed;
 scoreSpeed = 60;
-winningScore = 1000;
+winningScore = 160;
 
 myScore = 0;
 
@@ -76,10 +76,10 @@ image_speed = 0.2;
           <argument>
             <kind>1</kind>
             <string>if (rolesAreSwitched = 0) {
-    player2.myScore += 100;
+    player2.myScore += 16;
 }
 else {
-    player1.myScore += 100;
+    player1.myScore += 16;
 }
 
 player2.alarm[1] = scoreSpeed;

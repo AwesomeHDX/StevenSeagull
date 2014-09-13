@@ -36,7 +36,6 @@
     <script>scripts\stevenTurn.gml</script>
     <script>scripts\transform.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\player1</object>
     <object>objects\player2</object>
