@@ -54,25 +54,9 @@
     <script>scripts\stevenEat.gml</script>
     <script>scripts\seagullTurn.gml</script>
     <script>scripts\stevenTurn.gml</script>
-    <script>scripts\script7.gml</script>
   </scripts>
-  <objects name="objects">
-    <object>objects\player1</object>
-    <object>objects\player2</object>
-    <object>objects\SplashScreenActions</object>
-    <object>objects\header</object>
-    <object>objects\seagullKebab</object>
-    <object>objects\stevenKebab</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\MainLoop</room>
-    <room>rooms\SplashScreen</room>
-    <room>rooms\EndScreen</room>
-  </rooms>
-  <constants number="2">
-    <constant name="GM_build_date">41895,5129653009</constant>
-    <constant name="GM_version">'1.0.0.0'</constant>
-  </constants>
+  <objects name="objects"/>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
