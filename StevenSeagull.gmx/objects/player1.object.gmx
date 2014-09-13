@@ -118,10 +118,7 @@ if (y &lt; cruisingAltitude)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (isAttacking = 1)
-{
-    effect_create_above(ef_explosion,x,y,20,c_white)
-}
+            <string>switchPlaces();
 </string>
           </argument>
         </arguments>
