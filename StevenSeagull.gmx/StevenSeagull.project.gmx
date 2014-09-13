@@ -20,13 +20,14 @@
   <objects name="objects">
     <object>objects\player1</object>
     <object>objects\player2</object>
+    <object>objects\SplashScreenActions</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\MainLoop</room>
     <room>rooms\SplashScreen</room>
+    <room>rooms\MainLoop</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41895,4724955093</constant>
+    <constant name="GM_build_date">41895.4991163426</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
