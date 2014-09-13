@@ -7,6 +7,11 @@
   <sounds name="sound">
     <sound>sound\snd_sg_dive1</sound>
     <sound>sound\snd_sg_dive2</sound>
+    <sound>sound\snd_sv_walk1</sound>
+    <sound>sound\snd_sv_walk2</sound>
+    <sound>sound\snd_sv_walk3</sound>
+    <sound>sound\snd_sv_walk4</sound>
+    <sound>sound\snd_sv_walk5</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
@@ -21,6 +26,7 @@
     <script>scripts\mirrorHorizontal.gml</script>
     <script>scripts\switchPlaces.gml</script>
     <script>scripts\seagullAttack.gml</script>
+    <script>scripts\randomiseSoundEffect.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>
