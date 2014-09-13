@@ -7,8 +7,12 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\seagullRight</sprite>
+    <sprite>sprites\stevenLeft</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\backgroundMain</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objectTest</object>
@@ -20,7 +24,7 @@
     <room>rooms\SplashScreen</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41895,036821956</constant>
+    <constant name="GM_build_date">41895,3536509722</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
