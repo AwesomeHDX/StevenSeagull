@@ -27,7 +27,7 @@
     <room>rooms\SplashScreen</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41895,4547724537</constant>
+    <constant name="GM_build_date">41895,4724955093</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

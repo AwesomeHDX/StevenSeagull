@@ -28,6 +28,11 @@
             <string>globalvar flyingSpeed;
 flyingSpeed = 6;
 
+globalvar gravityPull;
+gravityPull = 0.5;
+
+globalvar initialDiveMomentum;
+initialDiveMomentum = 6;
 </string>
           </argument>
         </arguments>
@@ -167,7 +172,7 @@ mirrorHorizontal(player1);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0.2</string>
+            <string>gravityPull</string>
           </argument>
         </arguments>
       </action>
@@ -188,6 +193,7 @@ mirrorHorizontal(player1);
           <argument>
             <kind>1</kind>
             <string>isAttacking = 1;
+vspeed = initialDiveMomentum;
 </string>
           </argument>
         </arguments>
