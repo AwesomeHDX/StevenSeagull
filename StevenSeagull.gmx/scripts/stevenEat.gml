@@ -8,6 +8,7 @@ if (player2.hspeed = 0)
     player2.sprite_index = stevenRight;
     // seagullKebab.image_index = 5;
     player2.alarm[1] = -1;
+    player2.alarm[2] = -1;
 }    
 else
 {
@@ -15,5 +16,6 @@ else
     beforeStopSpeed = player2.hspeed;
     player2.hspeed = 0;
     player2.alarm[1] = scoreSpeed;
+    player2.alarm[2] = 1;
 }    
 
