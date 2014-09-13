@@ -47,7 +47,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (x = 640 or x = 0)
+            <string>if (x = 1024 or x = 0)
 { 
     hspeed *= -1;
     mirrorHorizontal(player1);
