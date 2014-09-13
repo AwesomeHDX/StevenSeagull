@@ -135,6 +135,12 @@ alarm[0] = walkingSoundSpeed;
     mirrorHorizontal(player2);
 }
 
+if (y &lt; cruisingAltitude)
+{
+    y = cruisingAltitude;
+    gravity = 0;
+}
+
 </string>
           </argument>
         </arguments>

@@ -20,6 +20,7 @@
     <sprite>sprites\seagullRight</sprite>
     <sprite>sprites\stevenRight</sprite>
     <sprite>sprites\stevenEatRight</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
@@ -35,6 +36,7 @@
     <script>scripts\stevenTurn.gml</script>
     <script>scripts\transform.gml</script>
   </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\player1</object>
     <object>objects\player2</object>
