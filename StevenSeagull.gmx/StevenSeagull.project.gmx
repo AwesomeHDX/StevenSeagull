@@ -34,11 +34,13 @@
     <sound>sound\snd_sv_walk6</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
     <sprite>sprites\seagullRight</sprite>
     <sprite>sprites\stevenRight</sprite>
     <sprite>sprites\stevenEatRight</sprite>
-    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\header</sprite>
+    <sprite>sprites\seagullScoreText</sprite>
+    <sprite>sprites\stevenScoreText</sprite>
+    <sprite>sprites\kebabRight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
