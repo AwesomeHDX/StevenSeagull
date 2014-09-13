@@ -20,6 +20,7 @@
   <scripts name="scripts">
     <script>scripts\mirrorHorizontal.gml</script>
     <script>scripts\switchPlaces.gml</script>
+    <script>scripts\seagullAttack.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>

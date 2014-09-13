@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>    globalvar flyingSpeed;
-    flyingSpeed = 6;
+    flyingSpeed = 4;
 
     globalvar gravityPull;
     gravityPull = 0.5;
