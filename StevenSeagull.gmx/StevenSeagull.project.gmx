@@ -37,7 +37,7 @@
     <sprite>sprites\seagullRight</sprite>
     <sprite>sprites\stevenRight</sprite>
     <sprite>sprites\stevenEatRight</sprite>
-    <sprite>sprites\header</sprite>
+    <sprite>sprites\scoreHeader</sprite>
     <sprite>sprites\seagullScoreText</sprite>
     <sprite>sprites\stevenScoreText</sprite>
     <sprite>sprites\kebabRight</sprite>
@@ -59,7 +59,9 @@
     <object>objects\player1</object>
     <object>objects\player2</object>
     <object>objects\SplashScreenActions</object>
-    <object>objects\object3</object>
+    <object>objects\header</object>
+    <object>objects\seagullKebab</object>
+    <object>objects\stevenKebab</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainLoop</room>

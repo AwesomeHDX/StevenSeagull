@@ -20,6 +20,6 @@
   <width>748</width>
   <height>256</height>
   <frames>
-    <frame index="0">images\header_0.png</frame>
+    <frame index="0">images\scoreHeader_0.png</frame>
   </frames>
 </sprite>
