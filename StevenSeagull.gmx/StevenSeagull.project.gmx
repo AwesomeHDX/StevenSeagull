@@ -16,6 +16,7 @@
     <sound>sound\snd_sv_walk7</sound>
     <sound>sound\snd_sv_walk8</sound>
     <sound>sound\snd_sv_walk9</sound>
+    <sound>sound\snd_sg_flap1</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
