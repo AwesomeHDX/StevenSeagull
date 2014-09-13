@@ -149,7 +149,7 @@ if (y &lt; cruisingAltitude)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(200,50,string(self.myScore));
+            <string>//draw_text(200,50,string(self.myScore));
 </string>
           </argument>
         </arguments>
