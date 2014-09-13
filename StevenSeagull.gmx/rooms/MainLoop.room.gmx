@@ -16,9 +16,11 @@ cruisingAltitude = player1.y;
 globalvar isAttacking;
 isAttacking = 0;
 
-
 globalvar walkingSpeed;
-walkingSpeed = 6;</code>
+walkingSpeed = 6;
+
+globalvar rolesAreSwitched;
+rolesAreSwitched = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
