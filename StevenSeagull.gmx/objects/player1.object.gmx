@@ -56,8 +56,8 @@
 if (y &gt; player2.y)
 { 
     y = player2.y;
-    vspeed *= -1;
-    // gravity = 0;
+    //vspeed *= -1;
+    gravity = 0;
 }
 </string>
           </argument>
