@@ -4,9 +4,6 @@ if (isAttacking = 1)
     {
         effect_create_above(ef_explosion,(player2.x - 150 + irandom(300)),(player2.y - 350 + irandom(400)),10,c_white);
     }
-        
-    
-    //player1.speed = 0;
     //player1.y = cruisingAltitude;
     player1.gravity = 0;
     //player1.vspeed = 0;
