@@ -76,10 +76,18 @@ image_speed = 0.2;
           <argument>
             <kind>1</kind>
             <string>if (rolesAreSwitched = 0) {
-    player2.myScore += 16;
+    player2.myScore += 10;
+    if (player2.myScore &gt;= winningScore) {
+        winner = player2;
+        room_goto(EndScreen);
+    }
 }
 else {
-    player1.myScore += 16;
+    player1.myScore += 10;
+    if (player1.myScore &gt;= winningScore) {
+        winner = player1;
+        room_goto(EndScreen);
+    }
 }
 
 player2.alarm[1] = scoreSpeed;
