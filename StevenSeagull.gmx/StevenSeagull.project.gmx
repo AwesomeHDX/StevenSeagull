@@ -16,6 +16,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\mirrorHorizontal.gml</script>
+    <script>scripts\switchPlaces.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>
@@ -27,7 +28,7 @@
     <room>rooms\MainLoop</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41895.4991163426</constant>
+    <constant name="GM_build_date">41895,5033550347</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
