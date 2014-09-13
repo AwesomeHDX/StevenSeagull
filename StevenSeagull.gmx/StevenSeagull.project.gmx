@@ -8,12 +8,15 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\seagullRight</sprite>
-    <sprite>sprites\stevenLeft</sprite>
+    <sprite>sprites\stevenRight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\mirrorHorizontal.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objectTest</object>
     <object>objects\player1</object>
@@ -24,7 +27,7 @@
     <room>rooms\SplashScreen</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41895,3536509722</constant>
+    <constant name="GM_build_date">41895,3846475</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
