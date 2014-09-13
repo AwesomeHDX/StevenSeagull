@@ -54,7 +54,6 @@
     <script>scripts\stevenEat.gml</script>
     <script>scripts\seagullTurn.gml</script>
     <script>scripts\stevenTurn.gml</script>
-    <script>scripts\script7.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>
