@@ -62,8 +62,10 @@
     <object>objects\header</object>
     <object>objects\seagullKebab</object>
     <object>objects\stevenKebab</object>
+    <object>objects\IntroScreenActions</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\IntroScreen</room>
     <room>rooms\MainLoop</room>
     <room>rooms\SplashScreen</room>
     <room>rooms\EndScreen</room>
