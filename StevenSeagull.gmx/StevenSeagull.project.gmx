@@ -15,12 +15,12 @@
     <sound>sound\snd_sv_walk6</sound>
     <sound>sound\snd_sv_walk7</sound>
     <sound>sound\snd_sv_walk8</sound>
-    <sound>sound\snd_sv_walk9</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\seagullRight</sprite>
     <sprite>sprites\stevenRight</sprite>
+    <sprite>sprites\stevenEatRight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
