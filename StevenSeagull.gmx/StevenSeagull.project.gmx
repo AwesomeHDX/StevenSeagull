@@ -18,7 +18,6 @@
     <script>scripts\mirrorHorizontal.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\objectTest</object>
     <object>objects\player1</object>
     <object>objects\player2</object>
   </objects>
