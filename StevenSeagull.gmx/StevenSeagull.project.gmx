@@ -12,6 +12,9 @@
     <sound>sound\snd_sv_walk3</sound>
     <sound>sound\snd_sv_walk4</sound>
     <sound>sound\snd_sv_walk5</sound>
+    <sound>sound\snd_sv_walk6</sound>
+    <sound>sound\snd_sv_walk7</sound>
+    <sound>sound\snd_sv_walk8</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>

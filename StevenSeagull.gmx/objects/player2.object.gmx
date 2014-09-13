@@ -36,6 +36,12 @@ walkSoundEffect[1] = snd_sv_walk2;
 walkSoundEffect[2] = snd_sv_walk3;
 walkSoundEffect[3] = snd_sv_walk4;
 walkSoundEffect[4] = snd_sv_walk5;
+walkSoundEffect[5] = snd_sv_walk6;
+walkSoundEffect[6] = snd_sv_walk7;
+walkSoundEffect[7] = snd_sv_walk8;
+//walkSoundEffect[8] = snd_sv_walk9;
+//walkSoundEffect[9] = snd_sv_walk10;
+
 
 hspeed = walkingSpeed;
 mirrorHorizontal(player2);
