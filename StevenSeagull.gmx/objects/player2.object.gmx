@@ -31,6 +31,12 @@ globalvar walkingSoundSpeed;
 walkingSpeed = -6;
 walkingSoundSpeed = 30;
 
+walkSoundEffect[0] = snd_sv_walk1;
+walkSoundEffect[1] = snd_sv_walk2;
+walkSoundEffect[2] = snd_sv_walk3;
+walkSoundEffect[3] = snd_sv_walk4;
+walkSoundEffect[4] = snd_sv_walk5;
+
 hspeed = walkingSpeed;
 mirrorHorizontal(player2);
 
@@ -57,7 +63,7 @@ alarm[0] = 10; // Trigger for playing the walking sound
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>randomiseSoundEffect();
+            <string>randomiseSoundEffect(walkSoundEffect);
 alarm[0] = walkingSoundSpeed;
 </string>
           </argument>
