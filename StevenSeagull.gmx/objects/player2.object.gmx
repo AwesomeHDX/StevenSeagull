@@ -28,12 +28,17 @@
             <string>globalvar walkingSpeed;
 globalvar walkingSoundSpeed;
 globalvar beforeStopSpeed;
-
-
+globalvar scoreSpeed;
+globalvar winningScore;
 
 walkingSpeed = -6;
 walkingSoundSpeed = 15;
 beforeStopSpeed = walkingSpeed;
+scoreSpeed = 60;
+winningScore = 1000;
+
+myScore = 0;
+
 walkSoundEffect[0] = snd_sv_walk1;
 walkSoundEffect[1] = snd_sv_walk2;
 walkSoundEffect[2] = snd_sv_walk3;
@@ -48,6 +53,36 @@ alarm[0] = 10; // Trigger for playing the walking sound
 
 image_speed = 0.2;
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (rolesAreSwitched = 0) {
+    player2.myScore += 100;
+}
+else {
+    player1.myScore += 100;
+}
+
+player2.alarm[1] = scoreSpeed;
 </string>
           </argument>
         </arguments>

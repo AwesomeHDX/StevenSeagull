@@ -29,7 +29,8 @@
     flyingSpeed = 4;
     image_speed = 0.27;
     flapSoundEffect[0] = snd_sg_flap1;
-
+    myScore = 0;
+    
     globalvar gravityPull;
     gravityPull = 0.5;
 
