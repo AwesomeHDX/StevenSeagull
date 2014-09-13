@@ -1,8 +1,8 @@
 if (isAttacking == 0) {
     isAttacking = 1;
-    gravity_direction = 270;
-    gravity = gravityPull;
+    player1.gravity_direction = 270;
+    player1.gravity = gravityPull;
     audio_play_sound(snd_sg_dive2, 10, false);
-    vspeed = initialDiveMomentum;
+    player1.vspeed = initialDiveMomentum;
 }
 
