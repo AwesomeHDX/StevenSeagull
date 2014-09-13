@@ -27,12 +27,17 @@
             <kind>1</kind>
             <string>    globalvar flyingSpeed;
     flyingSpeed = 4;
+    image_speed = 0.27;
+    flapSoundEffect[0] = snd_sg_flap1;
 
     globalvar gravityPull;
     gravityPull = 0.5;
 
     globalvar initialDiveMomentum;
     initialDiveMomentum = 6;
+    
+    audio_play_sound(flapSoundEffect[0], 4, true);
+    
 </string>
           </argument>
         </arguments>
