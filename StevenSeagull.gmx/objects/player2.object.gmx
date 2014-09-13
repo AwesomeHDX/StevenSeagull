@@ -32,7 +32,7 @@ globalvar beforeStopSpeed;
 
 
 walkingSpeed = -6;
-walkingSoundSpeed = 10;
+walkingSoundSpeed = 15;
 beforeStopSpeed = walkingSpeed;
 walkSoundEffect[0] = snd_sv_walk1;
 walkSoundEffect[1] = snd_sv_walk2;
