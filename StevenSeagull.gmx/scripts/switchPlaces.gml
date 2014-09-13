@@ -5,4 +5,5 @@ if (isAttacking = 1)
     player1.y = cruisingAltitude;
     player1.gravity = 0;
     player1.vspeed = 0;
+    isAttacking = 0;
 }

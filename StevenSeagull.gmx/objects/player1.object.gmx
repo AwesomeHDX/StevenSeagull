@@ -88,13 +88,13 @@ if (y &gt; player2.y)
     gravity = 0;
     //y = cruisingAltitude;
     vspeed = -4;
-    isAttacking = 0;
 }
 
 if (y &lt; cruisingAltitude)
 {
     y = cruisingAltitude;
     vspeed = 0;
+    isAttacking = 0;
 }
 </string>
           </argument>
@@ -165,11 +165,13 @@ mirrorHorizontal(player1);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>isAttacking = 1;
-gravity_direction = 270;
-gravity = gravityPull;
-audio_play_sound(snd_sg_dive2, 10, false);
-vspeed = initialDiveMomentum;
+            <string>if (isAttacking == 0) {
+    isAttacking = 1;
+    gravity_direction = 270;
+    gravity = gravityPull;
+    audio_play_sound(snd_sg_dive2, 10, false);
+    vspeed = initialDiveMomentum;
+}
 </string>
           </argument>
         </arguments>
