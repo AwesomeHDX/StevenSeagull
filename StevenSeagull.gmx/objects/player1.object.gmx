@@ -87,7 +87,6 @@
     mirrorHorizontal(player1);
 }
 
-
 if (y &gt; player2.y)
 { 
     y = player2.y;
@@ -102,7 +101,6 @@ if (y &lt; cruisingAltitude)
     y = cruisingAltitude;
     vspeed = 0;
     isAttacking = 0;
-    
 }
 </string>
           </argument>
@@ -127,6 +125,29 @@ if (y &lt; cruisingAltitude)
           <argument>
             <kind>1</kind>
             <string>switchPlaces();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text(200,50,string(self.myScore));
 </string>
           </argument>
         </arguments>
