@@ -24,8 +24,8 @@
     <object>objects\SplashScreenActions</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\SplashScreen</room>
     <room>rooms\MainLoop</room>
+    <room>rooms\SplashScreen</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41895,5129653009</constant>
