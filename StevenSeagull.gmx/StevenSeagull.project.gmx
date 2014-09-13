@@ -15,6 +15,7 @@
     <sound>sound\snd_sv_walk6</sound>
     <sound>sound\snd_sv_walk7</sound>
     <sound>sound\snd_sv_walk8</sound>
+    <sound>sound\snd_sv_walk9</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
@@ -33,6 +34,7 @@
     <script>scripts\stevenEat.gml</script>
     <script>scripts\seagullTurn.gml</script>
     <script>scripts\stevenTurn.gml</script>
+    <script>scripts\transform.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player1</object>
