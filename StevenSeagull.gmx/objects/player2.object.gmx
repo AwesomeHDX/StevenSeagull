@@ -33,6 +33,7 @@ globalvar winningScore;
 
 walkingSpeed = -6;
 walkingSoundSpeed = 15;
+eatingSoundSpeed = 30;
 beforeStopSpeed = walkingSpeed;
 scoreSpeed = 60;
 winningScore = 160;
@@ -47,13 +48,44 @@ walkSoundEffect[3] = snd_sv_walk4;
 walkSoundEffect[4] = snd_sv_walk5;
 walkSoundEffect[5] = snd_sv_walk6;
 
+eatSoundEffect[0] = snd_sv_eating1;
+eatSoundEffect[1] = snd_sv_eating2;
+eatSoundEffect[2] = snd_sv_eating3;
+eatSoundEffect[3] = snd_sv_eating4;
+eatSoundEffect[4] = snd_sv_eating5;
+
 hspeed = walkingSpeed;
 mirrorHorizontal(player2);
 
 alarm[0] = 10; // Trigger for playing the walking sound
+alarm[2] = -1;
 
 image_speed = 0.2;
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>randomiseSoundEffect(eatSoundEffect);
+alarm[2] = eatingSoundSpeed;
 </string>
           </argument>
         </arguments>
