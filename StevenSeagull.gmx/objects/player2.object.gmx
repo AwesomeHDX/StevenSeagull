@@ -30,6 +30,7 @@ globalvar walkingSoundSpeed;
 globalvar beforeStopSpeed;
 globalvar scoreSpeed;
 globalvar winningScore;
+globalvar winner;
 
 walkingSpeed = -6;
 walkingSoundSpeed = 15;
