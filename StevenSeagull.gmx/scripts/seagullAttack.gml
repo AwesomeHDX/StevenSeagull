@@ -1,4 +1,4 @@
-if (isAttacking == 0) {
+if (isAttacking == 0 and isRecovering == 0) {
     isAttacking = 1;
     player1.gravity_direction = 270;
     player1.gravity = gravityPull;

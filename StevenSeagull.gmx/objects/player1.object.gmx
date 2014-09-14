@@ -95,7 +95,9 @@ if (y &gt; player2.y)
     gravity = 0;
     //y = cruisingAltitude;
     vspeed = -4;
-    isAttacking = 0;
+    //isAttacking = 0;
+    isRecovering = 1;
+    
 }
 
 if (y &lt; cruisingAltitude)
@@ -103,6 +105,7 @@ if (y &lt; cruisingAltitude)
     y = cruisingAltitude;
     vspeed = 0;
     isAttacking = 0;
+    isRecovering = 0;
 }
 </string>
           </argument>

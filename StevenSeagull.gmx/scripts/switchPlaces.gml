@@ -1,5 +1,6 @@
-if (isAttacking = 1)
+if (isAttacking = 1 and isRecovering = 0)
 {
+    
     for (i=0; i<=60; i+=1)
     {
         effect_create_above(ef_explosion,(player2.x - 150 + irandom(300)),(player2.y - 350 + irandom(400)),10,c_white);
@@ -17,6 +18,7 @@ if (isAttacking = 1)
         rolesAreSwitched = 0;
     }
     isAttacking = 0;
+    isRecovering = 1;
     stopEating();
 }
 

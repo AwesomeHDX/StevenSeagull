@@ -16,6 +16,9 @@ cruisingAltitude = player1.y;
 globalvar isAttacking;
 isAttacking = 0;
 
+globalvar isRecovering;
+isRecovering = 0;
+
 globalvar walkingSpeed;
 walkingSpeed = 6;
 
