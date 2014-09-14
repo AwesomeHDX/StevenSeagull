@@ -5,10 +5,15 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_count1</sound>
+    <sound>sound\snd_count2</sound>
+    <sound>sound\snd_count3</sound>
+    <sound>sound\snd_count4</sound>
     <sound>sound\snd_m1_seagullcry</sound>
     <sound>sound\snd_m1_seawaves</sound>
     <sound>sound\snd_m2_counting</sound>
     <sound>sound\snd_m2_country_loop</sound>
+    <sound>sound\snd_m2_country_new</sound>
     <sound>sound\snd_m3_cheering_loop</sound>
     <sound>sound\snd_m3_cheering_start</sound>
     <sound>sound\snd_sg_collision</sound>
