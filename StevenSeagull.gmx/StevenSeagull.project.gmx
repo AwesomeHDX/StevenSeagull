@@ -47,6 +47,9 @@
     <sprite>sprites\stevenScoreText</sprite>
     <sprite>sprites\kebabRight</sprite>
     <sprite>sprites\countdown</sprite>
+    <sprite>sprites\youWin</sprite>
+    <sprite>sprites\player1Text</sprite>
+    <sprite>sprites\player2Text</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
@@ -73,6 +76,9 @@
     <object>objects\stevenKebab</object>
     <object>objects\IntroScreenActions</object>
     <object>objects\introCount</object>
+    <object>objects\win</object>
+    <object>objects\p1</object>
+    <object>objects\p2</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\IntroScreenTimeline</timeline>
