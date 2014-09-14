@@ -262,7 +262,9 @@ else
             <kind>1</kind>
             <string>if (rolesAreSwitched = 0)
 {
-    stevenTurn();
+    if (player2.hspeed != 0) {
+        stevenTurn();
+    }
 }
 else
 {
