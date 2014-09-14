@@ -17,4 +17,5 @@ if (isAttacking = 1)
         rolesAreSwitched = 0;
     }
     isAttacking = 0;
+    stopEating();
 }
