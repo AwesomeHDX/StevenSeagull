@@ -188,6 +188,41 @@ if (y &lt; cruisingAltitude)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// audio_sound_gain(index, volume, time);
+// Volume: 0 = low, 1= high
+
+audio_sound_gain(snd_sv_walk1, 0.3, 0);
+audio_sound_gain(snd_sv_walk2, 0.3, 0);
+audio_sound_gain(snd_sv_walk3, 0.3, 0);
+audio_sound_gain(snd_sv_walk4, 0.3, 0);
+audio_sound_gain(snd_sv_walk5, 0.3, 0);
+audio_sound_gain(snd_sv_walk6, 0.3, 0);
+
+audio_sound_gain(snd_sg_transform, 0.8, 0);
+
+audio_sound_gain(snd_sg_turn, 0.8, 0);
+
+audio_sound_gain(snd_sg_dive2, 0.8, 0);
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="64">
       <action>
