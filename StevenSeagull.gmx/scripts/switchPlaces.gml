@@ -6,7 +6,7 @@ if (isAttacking = 1)
     }
     
     player1.gravity = 0;
-    
+    audio_play_sound(snd_sg_transform, 10, false);
     
     if (rolesAreSwitched = 0)
     {
@@ -19,3 +19,4 @@ if (isAttacking = 1)
     isAttacking = 0;
     stopEating();
 }
+

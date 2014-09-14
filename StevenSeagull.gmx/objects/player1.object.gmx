@@ -178,9 +178,10 @@ if (y &lt; cruisingAltitude)
 }
 else
 {
-    stevenTurn();
+    if (player2.hspeed != 0) {
+        stevenTurn();
+    }
 }
-
 </string>
           </argument>
         </arguments>
