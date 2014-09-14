@@ -46,6 +46,7 @@
     <sprite>sprites\seagullScoreText</sprite>
     <sprite>sprites\stevenScoreText</sprite>
     <sprite>sprites\kebabRight</sprite>
+    <sprite>sprites\countdown</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundMain</background>
@@ -70,7 +71,11 @@
     <object>objects\seagullKebab</object>
     <object>objects\stevenKebab</object>
     <object>objects\IntroScreenActions</object>
+    <object>objects\introCount</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\IntroScreenTimeline</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\IntroScreen</room>
     <room>rooms\MainLoop</room>
