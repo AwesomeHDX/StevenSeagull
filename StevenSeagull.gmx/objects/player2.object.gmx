@@ -38,6 +38,8 @@ eatingSoundSpeed = 30;
 beforeStopSpeed = walkingSpeed;
 scoreSpeed = 60;
 winningScore = 140;
+
+stevenKebab.image_index = 0;
 stevenKebab.image_speed = 0;
 
 myScore = 0;
