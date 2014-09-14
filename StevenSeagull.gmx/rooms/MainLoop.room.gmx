@@ -25,7 +25,7 @@ rolesAreSwitched = 0;
 // Play intro once
 // Play theme looped
 
- audio_play_sound(snd_m2_country_loop,10, true);</code>
+ audio_play_sound(snd_m2_country_new,10, true);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

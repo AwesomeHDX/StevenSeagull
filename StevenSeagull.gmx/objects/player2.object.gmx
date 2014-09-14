@@ -219,6 +219,8 @@ audio_sound_gain(snd_sg_transform, 0.8, 0);
 audio_sound_gain(snd_sg_turn, 0.8, 0);
 
 audio_sound_gain(snd_sg_dive2, 0.8, 0);
+
+audio_sound_gain(snd_m2_country_new, 0.7, 0);
 </string>
           </argument>
         </arguments>
