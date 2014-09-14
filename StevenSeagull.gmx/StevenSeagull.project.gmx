@@ -79,6 +79,7 @@
     <object>objects\win</object>
     <object>objects\p1</object>
     <object>objects\p2</object>
+    <object>objects\EndScreenActions</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\IntroScreenTimeline</timeline>

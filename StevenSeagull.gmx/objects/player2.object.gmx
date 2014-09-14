@@ -114,6 +114,7 @@ alarm[2] = eatingSoundSpeed;
     stevenKebab.image_index += 1;
     if (player2.myScore &gt;= winningScore) {
         winner = player2;
+        audio_stop_all();
         room_goto(EndScreen);
     }
 }
@@ -122,6 +123,7 @@ else {
     seagullKebab.image_index += 1;
     if (player1.myScore &gt;= winningScore) {
         winner = player1;
+        audio_stop_all();
         room_goto(EndScreen);
     }
 }
